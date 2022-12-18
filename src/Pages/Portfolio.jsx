@@ -23,7 +23,7 @@ function Portfolio() {
                 />
                 <a href={data.linksite} target="_blank">
                   <div className="absolute text-white inset-0 -left-1 flex justify-center items-end ease-in-out opacity-0 hover:opacity-100 hover:-rotate-3 duration-1000">
-                    <p className="text-xl min-h-fit w-full bg-black/[.7] py-2 mb-6  ">
+                    <p className="text-xl min-h-fit w-full bg-black/[.7] py-2 mb-6 opacity-0 sm:opacity-100 ">
                       {data.desc}
                       <span className="font-arabic">{data.descQuran}</span>
                     </p>

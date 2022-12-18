@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid grid-cols-2 sm:grid sm:grid-cols-3">
           {Journey.map((data,index) => {
             return (
-              <div key={index} className=" w-full mr-20">
+              <div key={index} className=" w-full">
                 <p className="font-body text-2xl mt-10">{data.year}</p>
                 <br/>
                 <p className="font-body">{data.desc}</p>
