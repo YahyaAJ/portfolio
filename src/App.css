@@ -15,10 +15,11 @@ body{
     animation: animate 20s linear infinite;
 }
 i{
+    top: 0;
+    left: 0;
     position: absolute;
     background: white;
     border-radius: 50%;
-    width: 100%;
     animation: star linear infinite;
 }
 
@@ -44,6 +45,6 @@ i{
     }
     100%{
         opacity: 0;
-        transform: translateY(-100px);
+        transform: translateY(100px);
     }
 }
