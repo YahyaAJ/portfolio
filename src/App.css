@@ -37,7 +37,7 @@ i{
 @keyframes star{
     0%{
         opacity: 0;
-        transform: translatex(1px);
+        transform: translatex(0);
     }
     10%,90%{
         opacity: 1;
